@@ -48,3 +48,9 @@
         width: 88%;
     }
 }
+
+@media only screen and (max-width: 340px) {
+    #display-video-web iframe{
+        top: 5px;
+    }
+}

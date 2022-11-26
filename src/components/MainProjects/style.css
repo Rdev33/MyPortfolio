@@ -33,14 +33,14 @@
 }
 .print-project .project-img{
     position: absolute;
-    top: 17%;
-    width: 92%;
+    top: 18%;
+    width: 92.5%;
     height: 53%;
     left: 50%;
     transform: translate(-50%);
 }
 .print-project .computer-image{
-    max-width: 320px;
+    max-width: 290px;
     margin-top: 40px;
 }
 .project a{
@@ -77,5 +77,23 @@
     #main-projects{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #container-main-projects{
+        padding: 20px 12px 0 12px;
+    }
+    .project{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .print-project .project-img{
+        top: 20%;
+    }
+    .print-project .computer-image{
+        max-width: 235px;
     }
 }

@@ -84,3 +84,12 @@
         margin: 10px 0;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    #container-knowledge-techs{
+        padding: 20px 12px 0 12px;
+    }
+    #link-for-more p{
+        text-align: center;
+    }
+}

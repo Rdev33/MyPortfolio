@@ -30,7 +30,7 @@
     transition: .2s;
 }
 .container-menu.opened{
-    width: 350px;
+    width: 310px;
     padding: 25px;
 }
 .container-menu.closed{
@@ -77,4 +77,11 @@
 #links-navigation li:hover{
     background-color: white;
     color: var(--default-color-black);
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1370px) {
+    .container-menu.opened{
+        width: 70vw;
+    }
 }

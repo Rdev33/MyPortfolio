@@ -41,3 +41,9 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    #container-details-project{
+        padding: 0 15px;
+    }
+}

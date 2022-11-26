@@ -122,8 +122,11 @@
 }
 
 @media only screen and (max-width: 550px) {
+    #logo-and-introText{
+        padding: 30px 20px;
+    }
     .logo img{
-        width: 75px;
+        width: 65px;
     }
     #intro-text h1{
         font-size: 3.5em;

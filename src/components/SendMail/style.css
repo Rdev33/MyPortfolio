@@ -60,3 +60,12 @@
         min-height: 340px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    #container-send-mail{
+        padding: 20px 12px 0 12px;
+    }
+    #link-for-more p{
+        text-align: center;
+    }
+}
