@@ -1,10 +1,9 @@
 import './style.css';
-import AppleComputerImg from 'assets/apple-computer.png';
 import ProjectDisplayWeb from 'components/ProjectDisplayWeb';
 import ProjectDisplayMobile from 'components/ProjectDisplayMobile';
 
 const DetailsProject = ({project}) => {
-    const projectDisplayComponent = (project.type == 'App para android') ?
+    const projectDisplayComponent = (project.type === 'App para android') ?
         <ProjectDisplayMobile presentationText={project.presentationText} videoIDYoutube={project.videoIDYoutube} /> :
         <ProjectDisplayWeb presentationText={project.presentationText} videoIDYoutube={project.videoIDYoutube} />;
 
