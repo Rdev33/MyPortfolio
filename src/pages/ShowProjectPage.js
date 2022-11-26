@@ -9,7 +9,7 @@ import projects from "data/projects";
 const ShowProjectPage = () => {
     // Search by project. When it doesn't exist, redirect to the 404 page
     const { project: projectNameParam } = useParams();
-    const detailsProject = projects.find(item => item.name == projectNameParam);
+    const detailsProject = projects.find(item => item.name === projectNameParam);
 
     if(!detailsProject){
         return <PageNotFound />
