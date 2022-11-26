@@ -51,6 +51,16 @@
     }
 }
 
+@media only screen and (max-width: 550px) {
+    #container-about-me {
+        padding: 30px 15px;
+    }
+    #text-about-me p{
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 510px) {
     #text-about-me h2{
         font-size: 1.2em;
