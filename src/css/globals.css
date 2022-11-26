@@ -1,0 +1,24 @@
+@import "fonts.css";
+
+:root{
+    --default-color-black: #222222;
+    --default-color-theme: #E06363;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.title-section{
+    font-size: 2em;
+    color: var(--default-color-black);
+    margin: 15px 0;
+    font-family: Metropolis-Bold;
+}
+.accent-color-theme{
+    color: var(--default-color-theme);
+}

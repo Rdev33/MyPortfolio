@@ -1,0 +1,138 @@
+#container-header{
+    position: relative;
+    display: flex;
+}
+#container-header > *{
+    flex: 1;
+}
+#text-name-with-effect{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+    max-width: 100%;
+    overflow: hidden;
+}
+#text-name-with-effect h2{
+    white-space: nowrap;
+    font-family: Metropolis-Semibold;
+    margin: 0;
+    font-size: 15em;
+    color: #ffffff;
+    z-index: 12;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 25px #626262;
+    opacity: 0.07;
+    transition: 0.3s;
+    animation: animation-text-effect 20s linear infinite alternate;
+}
+@keyframes animation-text-effect {
+    100% {transform: translateX(-50%);}
+}
+#logo-and-introText{
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin: 0;
+    z-index: 13;
+}
+#backImage-and-printApp{
+    min-height: 570px;
+    border-bottom-left-radius: 50px;
+    background-image: url("../../assets/computer-image.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    gap: 50px;
+}
+#backImage-and-printApp img{
+    max-width: 24%;
+    position: relative;
+}
+#backImage-and-printApp img:nth-child(1){
+    top: 25px;
+}
+#backImage-and-printApp img:nth-child(2){
+    position: relative;
+    top: 110px;
+}
+#intro-text{
+    margin-top: 50px;
+}
+#intro-text h1, #intro-text p{
+    max-width: 45vw;
+}
+#intro-text h1{
+    font-family: 'Metropolis-Bold';
+    font-size: 4.5em;
+    color: var(--default-color-black);
+}
+#intro-text p{
+    font-family: 'Metropolis-Regular';
+    font-size: 1em;
+    line-height: 24px;
+    color: var(--default-color-black);
+}
+#intro-text p > a{
+    font-weight: bold;
+    color: var(--default-color-black);
+    text-decoration: none;
+}
+#intro-text p > a:hover{
+    text-decoration: underline;
+}
+#intro-text p span{
+    color: #777777;
+}
+#intro-text p svg{
+    position: relative;
+    top: 5px;
+    width: 23px;
+    color: var(--default-color-theme);
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1370px) {
+    #backImage-and-printApp img{
+        max-width: 31%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    #container-header{
+        flex-direction: column;
+    }
+    #backImage-and-printApp {
+        min-height: 500px;
+        border-bottom-left-radius: 0;
+    }
+    #backImage-and-printApp img{
+        max-width: 23%;
+    }
+    #backImage-and-printApp img:nth-child(1), #backImage-and-printApp img:nth-child(2){
+        top: 10px;
+    }
+    #intro-text h1, #intro-text p{
+        max-width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .logo img{
+        width: 75px;
+    }
+    #intro-text h1{
+        font-size: 3.5em;
+    }
+    #backImage-and-printApp {
+        min-height: 340px;
+        border-bottom-left-radius: 0;
+    }
+    #backImage-and-printApp img{
+        max-width: 25%;
+    }
+}

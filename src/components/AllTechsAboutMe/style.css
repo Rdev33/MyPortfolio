@@ -1,0 +1,122 @@
+#container-alltechs-about-me{
+    padding: 30px 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.center-title{
+    text-align: center;
+}
+/* am => About Me */
+#am-techs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.am-tech{
+    height: 280px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 13px 2px rgba(68,68,68,0.4);
+    box-shadow: 1px 1px 13px 2px rgba(68,68,68,0.4);
+    position: relative;
+}
+.am-tech img{
+    max-width: 60%;
+}
+.js-color-bar, .nodejs-color-bar, .reactjs-color-bar, .html5-color-bar, .css3-color-bar,
+.php-color-bar, .materialize-color-bar, .bulma-color-bar, .bootstrap-color-bar, .flutter-color-bar,
+.java-color-bar, .vuejs-color-bar, .mysql-color-bar, .sqlite-color-bar, .sqlserver-color-bar, .mongodb-color-bar
+{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.js-color-bar{
+    background-color: #FFDE25;
+}
+.nodejs-color-bar{
+    background-color: #6EA55F;
+}
+.reactjs-color-bar{
+    background-color: #60D9FA;
+}
+.html5-color-bar{
+    background-color: #E44D26;
+}
+.css3-color-bar{
+    background-color: #264DE4;
+}
+.php-color-bar{
+    background-color: #8993BE;
+}
+.flutter-color-bar{
+    background-color: #47C5FB;
+}
+.java-color-bar{
+    background-color: #6F96B0;
+}
+.materialize-color-bar{
+    background-color: #ED7179;
+}
+.bulma-color-bar{
+    background-color: #00D1B2;
+}
+.bootstrap-color-bar{
+    background-color: #5B4084;
+}
+.vuejs-color-bar{
+    background-color: #00BD82;
+}
+.mongodb-color-bar{
+    background-color: #519646;
+}
+.sqlite-color-bar{
+    background-color: #003B57;
+}
+.mysql-color-bar{
+    background-color: #E48E01;
+}
+.sqlserver-color-bar{
+    background-color: crimson;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1315px) {
+    .am-tech{
+        height: 220px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    #am-techs{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .am-tech img{
+        max-width: 70%;
+    }
+}
+@media only screen and (max-width: 730px) {
+    .am-tech{
+        height: 160px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    #am-techs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .am-tech{
+        height: 220px;
+    }
+    .am-tech img{
+        max-width: 50%;
+    }
+    .title-section{
+        font-size: 1.8em;
+    }
+}

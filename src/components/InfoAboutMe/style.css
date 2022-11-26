@@ -1,0 +1,58 @@
+#container-about-me{
+    padding: 30px 45px;
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+#container-about-me > div{
+    flex: 1;
+    margin-bottom: 15px;
+}
+#about-me-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#about-me-svg img{
+    max-width: 75%;
+}
+#text-about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text-about-me h2{
+    font-family: Metropolis-Light;
+    color: var(--default-color-black);
+    font-size: 1.5em;
+    margin: 0 0 15px 0;
+    text-align: left;
+    max-width: 80%;
+    line-height: 30px;
+}
+#text-about-me p{
+    font-family: Metropolis-Regular;
+    color: var(--default-color-black);
+    margin: 10px;
+    text-align: left;
+    max-width: 80%;
+    line-height: 24px;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 750px) {
+    #container-about-me{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    #text-about-me h2{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    #text-about-me h2{
+        font-size: 1.2em;
+    }
+}

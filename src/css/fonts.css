@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Metropolis-Thin';
+    src: url("../fonts/Metropolis-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Light';
+    src: url("../fonts/Metropolis-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Regular';
+    src: url("../fonts/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Medium';
+    src: url("../fonts/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Semibold';
+    src: url("../fonts/Metropolis-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Bold';
+    src: url("../fonts/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Metropolis-Black';
+    src: url("../fonts/Metropolis-Black.otf") format("opentype");
+}
