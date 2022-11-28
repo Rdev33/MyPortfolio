@@ -12,8 +12,8 @@ const InfoAboutMe = () => {
                 o que produzimos fica INCRÍVEL!</h2>
             <p>
                 Apaixonado desde criança pela área de TI, quando alcancei uma certa idade, já estava decidido e procurei
-                me profissionalizar no ramo. No começo eu queria ser um administrador de redes, mas quando eu tive o primeiro
-                contato com programação no curso técnico que eu fazia, eu fiquei encantado. Após esse momento, mudei a direção do
+                me profissionalizar no ramo. No começo eu queria ser um administrador de redes, mas quando tive o primeiro
+                contato com programação no curso técnico que eu fazia, fiquei encantado. Após esse momento, mudei a direção do
                 meu objetivo. Ainda bem que foi a mudança certa(área muito boa né rs).
                 <br /><br />
                 Eu atuo como Dev desde o ano de 2013. Comecei devagarzinho fazendo pequenas alterações de projetos
