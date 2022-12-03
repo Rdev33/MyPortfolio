@@ -26,12 +26,11 @@
     position: relative;
 }
 .am-tech img{
-    max-width: 60%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 75%;
 }
-.js-color-bar, .nodejs-color-bar, .reactjs-color-bar, .html5-color-bar, .css3-color-bar,
-.php-color-bar, .materialize-color-bar, .bulma-color-bar, .bootstrap-color-bar, .flutter-color-bar,
-.java-color-bar, .vuejs-color-bar, .mysql-color-bar, .sqlite-color-bar, .sqlserver-color-bar, .mongodb-color-bar
-{
+.bar-style{
     width: 100%;
     height: 5px;
     position: absolute;
@@ -85,6 +84,18 @@
 }
 .sqlserver-color-bar{
     background-color: crimson;
+}
+.codeigniter-color-bar{
+    background-color: #ee4323;
+}
+.jquery-color-bar{
+    background-color: #1b609c;
+}
+.laravel-color-bar{
+    background-color: #ff291a;
+}
+.livewire-color-bar{
+    background-color: #f36ca4;
 }
 
 /* RESPONSIVENESS */

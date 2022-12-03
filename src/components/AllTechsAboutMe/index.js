@@ -15,6 +15,10 @@ import mongodbLogo from 'assets/mongo-db-logo.png';
 import sqliteLogo from 'assets/sqlite-logo.png';
 import mysqlLogo from 'assets/mysql-logo.png';
 import sqlserverLogo from 'assets/sqlserver-logo.png';
+import laravelLogo from 'assets/laravel-logo.png';
+import livewireLogo from 'assets/livewire-logo.png';
+import codeIgniterLogo from 'assets/codeigniter-logo.png';
+import jqueryLogo from 'assets/jquery-logo.png';
 
 const AllTechsAboutMe = () => {
   return (
@@ -24,68 +28,84 @@ const AllTechsAboutMe = () => {
         </h3>
         <div id="am-techs">
             <div className="am-tech">
-                <img src={html5Logo} />
-                <div className="html5-color-bar"></div>
+                <img src={html5Logo} alt="HTML5 logo" title="HTML5 logo"/>
+                <div className="bar-style html5-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={css3Logo} />
-                <div className="css3-color-bar"></div>
+                <img src={css3Logo} alt="CSS3 logo" title="CSS3 logo" />
+                <div className="bar-style css3-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={jsLogo} />
-                <div className="js-color-bar"></div>
+                <img src={jsLogo} alt="Javascript logo" title="Javascript logo" />
+                <div className="bar-style js-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={reactjsLogo} />
-                <div className="reactjs-color-bar"></div>
+                <img src={reactjsLogo} alt="ReactJS logo" title="ReactJS logo" />
+                <div className="bar-style reactjs-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={vuejsLogo} />
-                <div className="vuejs-color-bar"></div>
+                <img src={vuejsLogo} alt="Vue.js logo" title="Vue.js logo" />
+                <div className="bar-style vuejs-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={nodejsLogo} />
-                <div className="nodejs-color-bar"></div>
+                <img src={nodejsLogo} alt="NodeJS logo" title="NodeJS logo" />
+                <div className="bar-style nodejs-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={phpLogo} />
-                <div className="php-color-bar"></div>
+                <img src={laravelLogo} alt="Laravel logo" title="Laravel logo" />
+                <div className="bar-style laravel-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={flutterLogo} />
-                <div className="flutter-color-bar"></div>
+                <img src={livewireLogo} alt="Livewire logo" title="Livewire logo" />
+                <div className="bar-style livewire-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={javaLogo} />
-                <div className="java-color-bar"></div>
+                <img src={codeIgniterLogo} alt="CodeIgniter logo" title="CodeIgniter logo" />
+                <div className="bar-style codeigniter-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={materializeLogo} />
-                <div className="materialize-color-bar"></div>
+                <img src={phpLogo} alt="PHP logo" title="PHP logo" />
+                <div className="bar-style php-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={bulmaLogo} />
-                <div className="bulma-color-bar"></div>
+                <img src={flutterLogo} alt="Flutter logo" title="Flutter logo"/>
+                <div className="bar-style flutter-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={bootstrapLogo} />
-                <div className="bootstrap-color-bar"></div>
+                <img src={javaLogo} alt="Java logo" title="Java logo" />
+                <div className="bar-style java-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={mongodbLogo} />
-                <div className="mongodb-color-bar"></div>
+                <img src={jqueryLogo} alt="Jquery logo" title="Jquery logo" />
+                <div className="bar-style jquery-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={sqliteLogo} />
-                <div className="sqlite-color-bar"></div>
+                <img src={materializeLogo} alt="Materialize logo" title="Materialize logo" />
+                <div className="bar-style materialize-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={mysqlLogo} />
-                <div className="mysql-color-bar"></div>
+                <img src={bulmaLogo} alt="Bulma logo" title="Bulma logo" />
+                <div className="bar-style bulma-color-bar"></div>
             </div>
             <div className="am-tech">
-                <img src={sqlserverLogo} />
-                <div className="sqlserver-color-bar"></div>
+                <img src={bootstrapLogo} alt="Bootstrap logo" title="Bootstrap logo" />
+                <div className="bar-style bootstrap-color-bar"></div>
+            </div>
+            <div className="am-tech">
+                <img src={mongodbLogo} alt="MongoDB logo" title="MongoDB logo" />
+                <div className="bar-style mongodb-color-bar"></div>
+            </div>
+            <div className="am-tech">
+                <img src={sqliteLogo} alt="SQLite logo" title="Sqlite logo" />
+                <div className="bar-style sqlite-color-bar"></div>
+            </div>
+            <div className="am-tech">
+                <img src={mysqlLogo} alt="MySQL logo" title="MySQL logo" />
+                <div className="bar-style mysql-color-bar"></div>
+            </div>
+            <div className="am-tech">
+                <img src={sqlserverLogo} alt="SQL Server logo" title="SQL Server logo" />
+                <div className="bar-style sqlserver-color-bar"></div>
             </div>
         </div>
     </div>

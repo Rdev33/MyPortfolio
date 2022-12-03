@@ -22,7 +22,7 @@ const KnowledgeTechs = () => {
                 <div className="green-bar"></div>
             </div>
             <div className="number-info">
-                <h2>+ 13</h2>
+                <h2>+ 17</h2>
             </div>
         </div>
         <div id="link-for-more">
