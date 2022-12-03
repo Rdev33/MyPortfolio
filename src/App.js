@@ -13,9 +13,9 @@ function App() {
         <SideMenu />
         <Routes>
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/projects" element={<ListAllProjectsPage />} />
-            <Route exact path="/projects/:project" element={<ShowProjectPage />} />
-            <Route exact path="/about-me" element={<AboutMePage />} />
+            <Route path="/projects" element={<ListAllProjectsPage />} />
+            <Route path="/projects/:project" element={<ShowProjectPage />} />
+            <Route path="/about-me" element={<AboutMePage />} />
             <Route path="*" element={<PageNotFound />} />
         </Routes>
     </Router>
