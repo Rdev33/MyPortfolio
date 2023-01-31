@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import './style.css';
 import linkedinIcon from 'assets/linkedin-icon.png';
 import whatsappIcon from 'assets/whatsapp-icon.png';
@@ -9,7 +10,7 @@ const FooterRdev = () => {
         <footer>
             <img src={logo} width="50" />
             <div id="socials-network">
-                <a href="https://www.linkedin.com/in/raphael-vin%C3%ADcius-a98818205/">
+                <a href="https://www.linkedin.com/in/raphael-silva-a98818205/">
                     <img src={linkedinIcon}/>
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=5511982877706">
